@@ -1,4 +1,4 @@
-# Programa de Treinamento para Desenvolvimento iOS
+# Programa de treinamento para desenvolvimento Swift - iOS
                                                                                                                                                      
 ```                                                                                                                                   
  ██████╗ ██████╗     ██████╗  █████╗ ███╗   ██╗██╗  ██╗              ██╗ ██████╗ ███████╗       
@@ -15,5 +15,5 @@
 ██████╔╝███████╗ ╚████╔╝ ███████╗███████╗╚██████╔╝██║     ██║ ╚═╝ ██║███████╗██║ ╚████║   ██║
 ╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝
 ```
-### Swift por Tales Valente
+### por Tales Valente
 	
