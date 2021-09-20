@@ -1,5 +1,5 @@
 # Swift
-                                                                                                                                                       
+/*                                                                                                                                                       
         CCCCCCCCCCCCC        66666666                    BBBBBBBBBBBBBBBBB               AAA               NNNNNNNN        NNNNNNNNKKKKKKKKK    KKKKKKK
      CCC::::::::::::C       6::::::6                     B::::::::::::::::B             A:::A              N:::::::N       N::::::NK:::::::K    K:::::K
    CC:::::::::::::::C      6::::::6                      B::::::BBBBBB:::::B           A:::::A             N::::::::N      N::::::NK:::::::K    K:::::K
@@ -17,7 +17,7 @@ C:::::C              6:::::6     6:::::6                   B::::B     B:::::B  A
      CCC::::::::::::C   66:::::::::66                    B::::::::::::::::BA:::::A                 A:::::A N::::::N        N::::::NK:::::::K    K:::::K
         CCCCCCCCCCCCC     666666666                      BBBBBBBBBBBBBBBBBAAAAAAA                   AAAAAAANNNNNNNN         NNNNNNNKKKKKKKKK    KKKKKKK
 
-*PROGRAMA DE TREINAMENTO P/ DESENVOLVIMENTO iOS
+PROGRAMA DE TREINAMENTO P/ DESENVOLVIMENTO iOS
 LINGUAGEM DE ALTO NÍVEL SWIFT - (MODIFICADORES DE ARRAY)
 By: Tales Valente
-
+*/
