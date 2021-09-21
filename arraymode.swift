@@ -23,8 +23,6 @@ import Foundation
 *By: Tales Valente
 */
 
-//COLEÇÃO DE DADOS ACESSADOS POR INDICE
-
 //let userNames: [String] = ["Tales", "Valente", "C6BANK"]
 let userNames = ["Tales", "Valente", "C6BANK"]
 print(userNames)
@@ -32,9 +30,11 @@ print(userNames)
 var userName: [String] = []
 userName.append("Tales")
 print(userName)
+
 userName += ["Valente","C6BANK"]
 print(userName)
 print(userName.count)
+
 
 //SLICE
 let name = userName[0]
@@ -46,24 +46,27 @@ print(firstThree[1])
 let firstThree2 = Array(userNames[1...2])
 print(firstThree2[0])
 
+
 // Remover todos os elementos
 userName.removeAll()
 
 // Checha se é vazio
-print(userNames.isEmpty)
+print(userName.isEmpty)
 
 // Verificar Tamanho
-print(userNames.count)
+print(userName.count)
 
 // Verificar se tem algum elemento especifico
-print(userNames.contains("Tales"))
+print(userName.contains("Tales"))
 
 // Acessar o primeiro elemento (?)
-if let first = userNames.first { 
+if let first = userName.first { 
   print(first)
+} else {
+  print ("vazio")
 }
 
-//Inserir no Indice
+//Inserir no Indice especificado e mantem os outros
 userName.insert("Inserido Aqui", at: 0)
 print (userName)
 
@@ -75,7 +78,8 @@ userName.insert("Inserido2", at: 0)
 print (userName)
 
 let removedLast = userName.removeLast()
-print (removedLast)
+print ("ola " + removedLast)
 
-userName[0...1] = ["Novo1","Novo2","Novo3"]
+userName += ["Valente","C6BANK"]
+userName.swapAt(0,1)
 print(userName)
