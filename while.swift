@@ -24,6 +24,35 @@
 
 import Foundation
 
+let range  = 0...5
+let range2 = 0..<4
+var limit  = 5
+var rg     = 0..<limit
+
+var sum = 0
+let count = 10
+
+for i in 1...count {
+    sum = sum + i
+} 
+print (sum)
+
+for _ in 1...count {
+  print("Olá")
+}
+
+for _ in 1...count where count > 50 {
+  print("Olá")
+}
+
+for i in 0...count where i % 2 == 0 {
+    print("indice é: \(i)")
+}
+
+for i in 0..<5 {
+    print ("Index e \(i)")
+}
+/*
 var i = 1
 while (i < 10) {
   print(i)
@@ -37,3 +66,4 @@ repeat {
   print(i)
   i += i
 } while (i < 10)
+*/
